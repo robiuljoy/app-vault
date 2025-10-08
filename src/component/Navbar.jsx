@@ -61,9 +61,15 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end">
-        <button className="btn mr-5 md:py-6 md:px-8 text-white p-5 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] rounded-lg">
-          <Github /> Contribute
-        </button>
+        <a
+          href="https://github.com/robiuljoy"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="btn mr-5 md:py-6 md:px-8 text-white p-5 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] rounded-lg flex items-center gap-2">
+            <Github /> Contribute
+          </button>
+        </a>
       </div>
     </div>
   );

@@ -1,146 +1,146 @@
 [
   {
-    "image": "https://play-lh.googleusercontent.com/rWWb2gQZNBmL2wBqHX4fTHmLw0H3nlxblIW4JMcQgYdEG8SX5blGfx06-NG5va2Ke8cj",
-    "title": "WeatherPro",
-    "companyName": "WeatherTech",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
+    "title": "WhatsApp",
+    "companyName": "Meta",
     "id": 101,
-    "description": "Accurate weather forecasts with real-time updates.",
-    "size": 45,
-    "reviews": 1200,
-    "ratingAvg": 4.5,
-    "downloads": 5000000,
-    "ratings": [
-      { "name": "1 star", "count": 50 },
-      { "name": "2 star", "count": 100 },
-      { "name": "3 star", "count": 200 },
-      { "name": "4 star", "count": 400 },
-      { "name": "5 star", "count": 450 }
-    ]
-  },
-  {
-    "image": "https://cdn.produkto.io/logo-templates/66d37def778d29ead29157b1/fit-track.webp",
-    "title": "FitTrack",
-    "companyName": "HealthPro",
-    "id": 102,
-    "description": "Track your fitness goals and monitor progress.",
-    "size": 60,
-    "reviews": 800,
-    "ratingAvg": 4.2,
-    "downloads": 3000000,
-    "ratings": [
-      { "name": "1 star", "count": 30 },
-      { "name": "2 star", "count": 70 },
-      { "name": "3 star", "count": 150 },
-      { "name": "4 star", "count": 250 },
-      { "name": "5 star", "count": 300 }
-    ]
-  },
-  {
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYDOZ9yzLBVRHdRtJpimtgDCItHb9ypbi8t8oIIlW42yNXK5G6gFR8pxuXpM7cQOEUUmI&usqp=CAU",
-    "title": "PhotoSnap",
-    "companyName": "SnapTech",
-    "id": 103,
-    "description": "Capture and edit photos with advanced tools.",
-    "size": 75,
-    "reviews": 1500,
+    "description": "Instant messaging and voice/video calls with friends and family.",
+    "size": 35,
+    "reviews": "1.2M",
     "ratingAvg": 4.7,
-    "downloads": 7000000,
+    "downloads": "5000M",
     "ratings": [
-      { "name": "1 star", "count": 20 },
-      { "name": "2 star", "count": 50 },
-      { "name": "3 star", "count": 100 },
-      { "name": "4 star", "count": 400 },
-      { "name": "5 star", "count": 930 }
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 75000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 1000000 }
     ]
   },
   {
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbwmTRTJtglf_V4XqjMXcMqD2b_yEx_IClbw&s",
-    "title": "NewsNow",
-    "companyName": "MediaCorp",
-    "id": 104,
-    "description": "Stay updated with the latest news from around the world.",
+    "image": "https://img.freepik.com/free-vector/instagram-logo_1199-122.jpg?semt=ais_hybrid&w=740&q=80",
+    "title": "Instagram",
+    "companyName": "Meta",
+    "id": 102,
+    "description": "Share photos, videos, and stories with your followers.",
     "size": 50,
-    "reviews": 950,
-    "ratingAvg": 4.3,
-    "downloads": 4000000,
-    "ratings": [
-      { "name": "1 star", "count": 40 },
-      { "name": "2 star", "count": 80 },
-      { "name": "3 star", "count": 150 },
-      { "name": "4 star", "count": 300 },
-      { "name": "5 star", "count": 380 }
-    ]
-  },
-  {
-    "image": "https://logopond.com/logos/79bbdb1f43fe16bb0cc2f2e6d338493e.png",
-    "title": "TravelMate",
-    "companyName": "GlobeTrot",
-    "id": 105,
-    "description": "Plan your trips and explore new destinations.",
-    "size": 65,
-    "reviews": 1100,
+    "reviews": "950K",
     "ratingAvg": 4.6,
-    "downloads": 6000000,
+    "downloads": "2000M",
     "ratings": [
-      { "name": "1 star", "count": 25 },
-      { "name": "2 star", "count": 60 },
-      { "name": "3 star", "count": 100 },
-      { "name": "4 star", "count": 400 },
-      { "name": "5 star", "count": 515 }
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 430000 }
     ]
   },
   {
-    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/cf613a106842361.5f99428d1a93b.jpg",
-    "title": "MusicStream",
-    "companyName": "TuneWave",
-    "id": 106,
-    "description": "Stream your favorite music anytime, anywhere.",
-    "size": 80,
-    "reviews": 1300,
-    "ratingAvg": 4.4,
-    "downloads": 8000000,
-    "ratings": [
-      { "name": "1 star", "count": 30 },
-      { "name": "2 star", "count": 70 },
-      { "name": "3 star", "count": 150 },
-      { "name": "4 star", "count": 400 },
-      { "name": "5 star", "count": 650 }
-    ]
-  },
-  {
-    "image": "https://i.ytimg.com/vi/A_Ae1jUBl9o/maxresdefault.jpg",
-    "title": "ShopEasy",
-    "companyName": "RetailHub",
-    "id": 107,
-    "description": "Shop your favorite products with ease.",
-    "size": 55,
-    "reviews": 1050,
-    "ratingAvg": 4.1,
-    "downloads": 3500000,
-    "ratings": [
-      { "name": "1 star", "count": 35 },
-      { "name": "2 star", "count": 90 },
-      { "name": "3 star", "count": 180 },
-      { "name": "4 star", "count": 300 },
-      { "name": "5 star", "count": 445 }
-    ]
-  },
-  {
-    "image": "https://tint.creativemarket.com/_BDT_ZXFwhSmYipw1T63UcT_JMq8x3r-4JoQFweivfg/width:1200/height:800/gravity:nowe/rt:fill-down/el:1/czM6Ly9maWxlcy5jcmVhdGl2ZW1hcmtldC5jb20vaW1hZ2VzL3NjcmVlbnNob3RzL3Byb2R1Y3RzLzE0NS8xNDUzLzE0NTM1NDkvMi1vLmpwZw?1468528409",
-    "title": "GameHub",
-    "companyName": "PlayZone",
-    "id": 108,
-    "description": "Discover and play the latest games.",
+    "image": "https://img.freepik.com/premium-vector/vector-tiktok-social-media-logo_1093524-451.jpg?semt=ais_hybrid&w=740&q=80",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "id": 103,
+    "description": "Create, watch, and share short videos worldwide.",
     "size": 70,
-    "reviews": 1400,
-    "ratingAvg": 4.8,
-    "downloads": 7500000,
+    "reviews": "1.5M",
+    "ratingAvg": 4.5,
+    "downloads": "3000M",
     "ratings": [
-      { "name": "1 star", "count": 15 },
-      { "name": "2 star", "count": 40 },
-      { "name": "3 star", "count": 100 },
-      { "name": "4 star", "count": 400 },
-      { "name": "5 star", "count": 845 }
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 850000 }
+    ]
+  },
+  {
+    "image": "https://static.vecteezy.com/system/resources/previews/006/057/992/non_2x/spotify-logo-on-transparent-background-free-vector.jpg",
+    "title": "Spotify",
+    "companyName": "Spotify Ltd.",
+    "id": 104,
+    "description": "Stream millions of songs and podcasts anytime, anywhere.",
+    "size": 65,
+    "reviews": "1.3M",
+    "ratingAvg": 4.7,
+    "downloads": "1500M",
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 700000 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/premium-vector/snapchat-app-icon-popular-messaging-app-that-lets-users-exchange-pictures-videos_277909-458.jpg?semt=ais_hybrid&w=740&q=80",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 105,
+    "description": "Send photos, videos, and chat with friends in real-time.",
+    "size": 55,
+    "reviews": "950K",
+    "ratingAvg": 4.3,
+    "downloads": "1000M",
+    "ratings": [
+      { "name": "1 star", "count": 25000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 475000 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/premium-vector/vector-circle-youtube-logo-collection-with-flat-design_534308-21669.jpg?semt=ais_hybrid&w=740&q=80",
+    "title": "YouTube",
+    "companyName": "Google",
+    "id": 106,
+    "description": "Watch, upload, and share videos with the world.",
+    "size": 85,
+    "reviews": "1.8M",
+    "ratingAvg": 4.8,
+    "downloads": "5000M",
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 1250000 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/premium-vector/facebook-icon-paper-cut-style-social-media-icons_505135-232.jpg?semt=ais_hybrid&w=740&q=80",
+    "title": "Facebook",
+    "companyName": "Meta",
+    "id": 107,
+    "description": "Connect with friends, share updates, and explore communities.",
+    "size": 70,
+    "reviews": "1.25M",
+    "ratingAvg": 4.4,
+    "downloads": "4000M",
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 350000 },
+      { "name": "5 star", "count": 750000 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/premium-vector/play-store-logo-vector-clip-art-icon-graphics-design-free-download_1302809-544.jpg?semt=ais_hybrid&w=740&q=80",
+    "title": "Google Play",
+    "companyName": "Google",
+    "id": 108,
+    "description": "Download apps, games, music, and more from the Play Store.",
+    "size": 80,
+    "reviews": "900K",
+    "ratingAvg": 4.5,
+    "downloads": "3000M",
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 400000 }
     ]
   }
 ]

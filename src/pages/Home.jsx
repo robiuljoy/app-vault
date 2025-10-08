@@ -5,11 +5,11 @@ import { useLoaderData } from "react-router";
 
 const Home = () => {
   const data = useLoaderData();
-  console.log(data);
+
   return (
     <div className="bg-gray-100">
       <Banner></Banner>
-      <TrendingApps></TrendingApps>
+      <TrendingApps data={data}></TrendingApps>
     </div>
   );
 };
