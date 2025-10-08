@@ -1,26 +1,22 @@
 import React from "react";
-import { Link } from "react-router";
+import { Link, NavLink } from "react-router";
 import logoImg from "../assets/logo.png";
 import { Github } from "lucide-react";
 
 const Navbar = () => {
   const links = (
     <>
-      <Link>
-        <li className=" text-lg hover:text-[#9F62F2] hover:underline font-medium text-[#000000E6]">
-          Home
-        </li>
-      </Link>
-      <Link>
-        <li className="ml-8 text-lg hover:text-[#9F62F2] hover:underline font-medium text-[#000000E6]">
-          Apps
-        </li>
-      </Link>
-      <Link>
-        <li className="ml-8  text-lg hover:text-[#9F62F2] hover:underline font-medium text-[#000000E6]">
-          Installation
-        </li>
-      </Link>
+      <li className=" text-lg hover:text-[#9F62F2] hover:underline font-medium text-[#000000E6]">
+        <NavLink to="/">Home</NavLink>
+      </li>
+
+      <li className="ml-8 text-lg hover:text-[#9F62F2] hover:underline font-medium text-[#000000E6]">
+        <NavLink to="/apps">Apps</NavLink>
+      </li>
+
+      <li className="ml-8  text-lg hover:text-[#9F62F2] hover:underline font-medium text-[#000000E6]">
+        <NavLink to="/installation">Installation</NavLink>
+      </li>
     </>
   );
   return (
@@ -50,12 +46,12 @@ const Navbar = () => {
             {links}
           </ul>
         </div>
-        <a className="flex items-center gap-2 cursor-pointer">
+        <Link to="/" className="flex items-center gap-2 cursor-pointer">
           <img className="w-10 h-10" src={logoImg} alt="" />{" "}
           <span className="lg:text-lg text-sm font-semibold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
             App Vault
           </span>
-        </a>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>

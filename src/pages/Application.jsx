@@ -1,7 +1,8 @@
 import { Download, Star } from "lucide-react";
 import React from "react";
 
-const SingleApp = ({ app }) => {
+const Application = ({ app }) => {
+  console.log(app);
   return (
     <>
       <div className="card shadow-sm rounded-2xl flex flex-col bg-white p-6  justify-between">
@@ -26,4 +27,4 @@ const SingleApp = ({ app }) => {
   );
 };
 
-export default SingleApp;
+export default Application;
