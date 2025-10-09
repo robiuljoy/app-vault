@@ -24,15 +24,27 @@ const Banner = () => {
             </p>
           </div>
           <div className="button-div mt-5 mb-8 flex justify-center items-center gap-3">
-            <button className="btn">
-              {" "}
-              <img className="h-6 w-6" src={googleStoreImg} alt="" /> Google
-              Play
-            </button>
-            <button className="btn">
-              {" "}
-              <img className="h-6 w-6" src={appStoreImg} alt="" /> App Store
-            </button>
+            <a
+              href="https://play.google.com/store/apps?hl=en"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="btn">
+                {" "}
+                <img className="h-6 w-6" src={googleStoreImg} alt="" /> Google
+                Play
+              </button>
+            </a>
+            <a
+              href="https://www.apple.com/app-store/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="btn">
+                {" "}
+                <img className="h-6 w-6" src={appStoreImg} alt="" /> App Store
+              </button>
+            </a>
           </div>
           <div className="flex justify-center items-center mt-10 px-5 md:px-0">
             <img src={heroImg} alt="" />
