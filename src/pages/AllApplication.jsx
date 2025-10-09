@@ -27,7 +27,7 @@ const AllApplication = () => {
       setLoading(false);
 
       if (filteredData.length === 0) {
-        navigate("/appError");
+        navigate("/appError", { replace: true });
       }
     }, 1000);
 

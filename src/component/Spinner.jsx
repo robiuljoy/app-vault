@@ -1,9 +1,11 @@
+// Spinner.jsx
 import React from "react";
 
 const Spinner = () => {
   return (
-    <div className="flex items-center justify-center">
-      <div className="w-10 h-10 border-4 border-t-[#9F62F2] border-[#E2E2E2] rounded-full animate-spin"></div>
+    <div className="flex justify-center items-center mt-10">
+      <span className="loading loading-ring w-22 h-22 text-[#FF8811]"></span>
+      <span className="loading loading-ring w-20 h-20 text-[#9F62F2] ml-[-1.5rem] opacity-80 animate-spin-slow"></span>
     </div>
   );
 };

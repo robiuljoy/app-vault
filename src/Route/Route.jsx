@@ -29,13 +29,13 @@ export const router = createBrowserRouter([
         element: <InstalledApps></InstalledApps>,
       },
       {
+        path: "/appError",
+        element: <AppError></AppError>,
+      },
+      {
         path: "/appDetails/:id",
         loader: () => fetch("/allAppData.json"),
         element: <AppDetails></AppDetails>,
-      },
-      {
-        path: "/appError",
-        element: <AppError></AppError>,
       },
     ],
   },
