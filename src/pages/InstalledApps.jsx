@@ -4,7 +4,7 @@ import { Download, MoveDown, Star } from "lucide-react";
 
 const MyInstallation = () => {
   const [installedApps, setInstalledApps] = useState([]);
-  const [sortBy, setSortBy] = useState(""); // "" | "size" | "rating"
+  const [sortBy, setSortBy] = useState("");
 
   useEffect(() => {
     setInstalledApps(getInstalledApps());
@@ -15,12 +15,11 @@ const MyInstallation = () => {
     setInstalledApps((prev) => prev.filter((app) => app.id !== id));
   };
 
-  // Sort apps based on sortBy
   const sortedApps = [...installedApps].sort((a, b) => {
     if (sortBy === "size") {
-      return (b.size || 0) - (a.size || 0); // descending by size
+      return (b.size || 0) - (a.size || 0);
     } else if (sortBy === "rating") {
-      return (b.ratingAvg || 0) - (a.ratingAvg || 0); // descending by rating
+      return (b.ratingAvg || 0) - (a.ratingAvg || 0);
     } else {
       return 0;
     }
@@ -72,7 +71,6 @@ const MyInstallation = () => {
                 key={app.id}
                 className="bg-white rounded-2xl shadow-md flex flex-col md:flex-row items-center md:items-start p-6 w-full"
               >
-                {/* Left: Image + Info */}
                 <div className="flex flex-col md:flex-row items-center md:items-start flex-1 gap-6">
                   <img
                     src={app.image}
@@ -97,7 +95,6 @@ const MyInstallation = () => {
                   </div>
                 </div>
 
-                {/* Right: Uninstall Button */}
                 <div className="mt-4 md:mt-0 md:ml-6 flex-shrink-0">
                   <button
                     onClick={() => handleUninstall(app.id)}

@@ -19,8 +19,7 @@ const AllApplication = () => {
   }, [searchQuery, data]);
 
   useEffect(() => {
-    if (searchQuery.trim() === "") return; // Skip if empty input
-
+    if (searchQuery.trim() === "") return;
     setLoading(true);
 
     const timer = setTimeout(() => {
